@@ -44,7 +44,7 @@ Note: DNVM was formerly called KVM.
 The first thing we need to do is setup the tools required to build and run an application. We will start out by getting the [.NET Version Manager (DNVM)](https://github.com/aspnet/Home/wiki/version-manager). We use the .NET Version Manager to install different versions of the .NET Execution Environment (DNX) (used by the ASP.NET 5 runtime) and switch between them.
 
 #### Windows
-To install DNVM on Windows run the following command, which will download and run a script that installs DNVM for the current user (requires admin privileges for Powershell).
+To install DNVM on Windows run the following command in Developer Command Prompt for VS2015, which will download and run a script that installs DNVM for the current user (requires admin privileges for Powershell).
 
 ##### Stable(ish) (KVM)
 This will use the currently released version of `kvm` (from the `master` branch of this repo). (KVM was renamed to DNVM after the current public release.)
